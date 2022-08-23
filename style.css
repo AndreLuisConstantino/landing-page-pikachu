@@ -20,13 +20,22 @@ body{
     padding-right: var(--space-defaut);
     padding-bottom: 24px;
     padding-left: var(--space-defaut);
+    font-family: 'Righteous', cursive;
 }
 
 header{
-    background-color: aqua;
     height: 48px;
 }
+.logo{
+    display: inline-flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--secundary-color);
 
+
+}
 main{
     background-color: purple;
     flex-grow: 1;
