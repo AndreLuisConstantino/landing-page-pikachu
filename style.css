@@ -41,6 +41,13 @@ main{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 .title{
     position: relative;
     grid-column: 1/-1;
@@ -65,12 +72,14 @@ main{
     grid-column: 1/7;
     place-self: center start;
     color: var(--secundary-color);
+    z-index: 1;
 }
 .description__title{
     font-size: 4rem;
 }
 .description__text{
     font-size: 1.2rem;
+    width: 500px;
 }
 .action{
     grid-column: 7/-1;
