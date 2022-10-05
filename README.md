@@ -1,4 +1,4 @@
-# landing-page-pikachu
+# Landing-page Pikachu
 
 ![](./img/screenshot.png)
 
